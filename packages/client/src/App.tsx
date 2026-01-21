@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
-import SendMessage from './components/sendMessage';
+import SendMessage from './components/SendMessage';
 
 export type Message = {
    role: 'user' | 'assistant';
