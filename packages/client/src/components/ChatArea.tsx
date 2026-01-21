@@ -17,8 +17,12 @@ export default function ChatArea({
          {messages.map((msg, idx) => (
             <Card
                key={idx}
-               className={`max-w-[70%] px-4 py-2 text-sm
-            ${msg.role === 'user' ? 'self-end bg-indigo-600 text-white' : 'self-start bg-gray-200 text-gray-900'}`}
+               className={`max-w-[70%] px-4 py-2 text-sm whitespace-pre-wrap
+           ${
+              msg.role === 'user'
+                 ? 'self-end bg-indigo-600 text-white'
+                 : 'self-start bg-gray-200 text-gray-900'
+           }`}
             >
                {msg.content}
             </Card>
