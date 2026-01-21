@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import type { Chat } from '@/App';
-import { Button } from '@/components/ui/button';
+import type { Chat } from '../App';
+import { Button } from '../components/ui/button';
 import { MessageSquareIcon, SidebarIcon } from 'lucide-react';
 import clsx from 'clsx';
 

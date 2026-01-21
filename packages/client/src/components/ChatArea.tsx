@@ -1,5 +1,5 @@
-import type { Message } from '@/App';
-import { Card } from '@/components/ui/card';
+import type { Message } from '../App';
+import { Card } from '../components/ui/card';
 
 type ChatAreaProps = {
    messages: Message[];
